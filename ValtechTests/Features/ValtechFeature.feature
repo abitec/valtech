@@ -1,5 +1,4 @@
-﻿
-@Valtech
+﻿@Valtech
 Feature: ValtechFeature
 	In order to find information about Valtech
 	As a potential customer
