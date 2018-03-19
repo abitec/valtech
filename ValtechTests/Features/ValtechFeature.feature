@@ -9,7 +9,6 @@ Scenario: Find latest news section
 	Given Customer is on Valtech website
 	Then Customer can see latest news section 
 
-
 Scenario: Navigate to pages
 	Given Customer is on Valtech website
 	When  Navigates to about services and work 

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using TechTalk.SpecFlow;
 using ValtechTests.Helper;
 using ValtechTests.Pages;
