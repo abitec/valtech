@@ -9,7 +9,6 @@ namespace ValtechTests.Helper
     public class Context
     {
         public IWebDriver Driver;
-        private string BaseUrl  => ConfigurationManager.AppSettings["BaseUrl"];
 
         public void BrowserSetup()
         {
@@ -27,7 +26,7 @@ namespace ValtechTests.Helper
                 }
             }
             Driver = new ChromeDriver();
-            Driver.Navigate().GoToUrl(BaseUrl);
+            Driver.Navigate().GoToUrl(ConfigurationManager.AppSettings["BaseUrl"]);
             Driver.Manage().Window.Maximize();
         }
 
