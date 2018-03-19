@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.Diagnostics;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -8,7 +9,7 @@ namespace ValtechTests.Helper
     public class Context
     {
         public IWebDriver Driver;
-        private string BaseUrl { get; } = "https://www.valtech.com";
+        private string BaseUrl  => ConfigurationManager.AppSettings["BaseUrl"];
 
         public void BrowserSetup()
         {
