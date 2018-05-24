@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections;
-using NUnit.Framework;
-using TechTalk.SpecFlow;
+﻿using TechTalk.SpecFlow;
 using ValtechTests.Helper;
 using ValtechTests.Pages;
 using System.Collections.Generic;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ValtechTests.Steps
 {
