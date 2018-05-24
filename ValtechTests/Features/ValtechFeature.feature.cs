@@ -134,7 +134,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 18
  testRunner.When("Navigates to contact section to count the number of offices", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 19
- testRunner.Then("Number of offices should be 36", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Number of offices should be 34", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

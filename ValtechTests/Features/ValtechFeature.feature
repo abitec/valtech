@@ -16,4 +16,4 @@ Scenario: Navigate to pages
 Scenario: Verify the total number of offices
 	Given Customer is on Valtech website
 	When  Navigates to contact section to count the number of offices
-	Then Number of offices should be 36
+	Then Number of offices should be 34
