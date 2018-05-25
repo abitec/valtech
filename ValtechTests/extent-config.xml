@@ -8,5 +8,7 @@
       <chartVisibilityOnOpen>true</chartVisibilityOnOpen>
       <reportName>Valtech - Automation Report</reportName>
       <testViewChartLocation>bottom</testViewChartLocation>
+      <enableCategoryView>true</enableCategoryView>
+      <enableExceptionView>true</enableExceptionView>
     </configuration>
 </extentreports>
