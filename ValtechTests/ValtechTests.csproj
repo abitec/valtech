@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="extent-config.xml" />
+    <Content Include="TestReport.html" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
